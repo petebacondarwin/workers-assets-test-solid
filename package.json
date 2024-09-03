@@ -5,8 +5,8 @@
     "dev": "vinxi dev",
     "build": "vinxi build",
     "start": "vinxi start",
-    "preview": "pnpm run build && npx wrangler pages dev",
-    "deploy": "pnpm run build && wrangler pages deploy"
+    "preview": "pnpm run build && npx wrangler dev",
+    "deploy": "pnpm run build && wrangler deploy"
   },
   "dependencies": {
     "@solidjs/router": "^0.14.1",
